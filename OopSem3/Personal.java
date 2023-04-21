@@ -24,7 +24,8 @@ public class Personal implements Iterable<User>{
         };
     }
 
-    public void addUser(User user){
+    public Personal addUser(User user){
         users.add(user);
+        return this;
     }
 }
