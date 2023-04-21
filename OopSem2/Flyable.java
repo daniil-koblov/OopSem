@@ -1,5 +1,5 @@
 package OopSem2;
 
-public class Flyable {
-    
+public interface Flyable {
+    int speedForFly();
 }
