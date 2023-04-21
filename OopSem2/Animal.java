@@ -1,6 +1,6 @@
 package OopSem2;
 
-public abstract class Animal {
+public abstract class Animal implements Sayable{
     private String name;
 
     public Animal(String name) {
