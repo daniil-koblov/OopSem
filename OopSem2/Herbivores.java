@@ -1,5 +1,10 @@
 package OopSem2;
 
-public class Herbivores {
-    
+public abstract class Herbivores extends Animal{
+    public Herbivores(String name) {
+        super(name);
+    }
+    public String feed(){
+        return "grass";
+    }
 }
