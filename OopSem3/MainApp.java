@@ -1,5 +1,5 @@
 package OopSem3;
 
-public class MainAdd {
+public class MainApp {
     
 }
