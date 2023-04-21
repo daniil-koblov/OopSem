@@ -1,8 +1,5 @@
 package OopSem3;
 
-import java.util.Collections;
-import java.util.List;
-
 public class MainApp {
     public static void main(String[] args) {
         Personal personal = new Personal();
