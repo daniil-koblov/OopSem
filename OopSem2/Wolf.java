@@ -1,5 +1,6 @@
 package OopSem2;
 
+
 public class Wolf extends Predator implements Walkable{
     public Wolf(String name) {
         super(name);
