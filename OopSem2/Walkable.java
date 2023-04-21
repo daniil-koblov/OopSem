@@ -1,5 +1,6 @@
 package OopSem2;
 
-public class Walkable {
-    
+public interface Walkable {
+    int speedForWalk();
+
 }
