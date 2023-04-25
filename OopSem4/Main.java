@@ -12,6 +12,12 @@ public class Main {
 
         System.out.println(archersTeam);
         System.out.println(assasinTeam);
+        
+        Battle placeOfBattle = new Battle(new Archer("Henry", new Bow(), 30), 
+                               new Assasin("Jonny", new Knife(), 34));
+        Warrior winner = placeOfBattle.fight();
+
+        System.out.println(winner);
     }
     
 }
