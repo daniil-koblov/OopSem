@@ -10,4 +10,9 @@ public class Archer extends Warrior{
         Random random = new Random();
         return random.nextInt(((Bow)weapon).range());
     }
+
+    @Override
+    public String toString() {
+        return String.format("Archer %s", super.toString());
+    }
 }
