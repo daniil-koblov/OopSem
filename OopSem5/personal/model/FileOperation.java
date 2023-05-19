@@ -1,5 +1,9 @@
 package OopSem5.personal.model;
 
-public class FileOperation {
-    
+import java.util.List;
+
+public interface FileOperation {
+    List<String> readAllLines();
+
+    void saveAllLines(List<String> lines);
 }
