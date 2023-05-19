@@ -1,5 +1,11 @@
 package OopSem5.personal.views;
 
-public class Commands {
-    
+public enum Commands {
+    NONE,
+    READ,
+    CREATE,
+    UPDATE,
+    LIST,
+    DELETE,
+    EXIT
 }
