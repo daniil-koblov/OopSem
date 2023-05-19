@@ -1,11 +1,11 @@
 package OopSem5.personal;
 
-import personal.controllers.UserController;
-import personal.model.FileOperation;
-import personal.model.FileOperationImpl;
-import personal.model.Repository;
-import personal.model.RepositoryFile;
-import personal.views.ViewUser;
+import OopSem5.personal.controllers.UserController;
+import OopSem5.personal.model.FileOperation;
+import OopSem5.personal.model.FileOperationImpl;
+import OopSem5.personal.model.Repository;
+import OopSem5.personal.model.RepositoryFile;
+import OopSem5.personal.views.ViewUser;
 
 public class Main {
     public static void main(String[] args) {

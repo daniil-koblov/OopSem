@@ -1,7 +1,7 @@
 package OopSem5.personal.views;
 
-import personal.controllers.UserController;
-import personal.model.User;
+import OopSem5.personal.controllers.UserController;
+import OopSem5.personal.model.User;
 
 import java.util.List;
 import java.util.Scanner;

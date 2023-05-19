@@ -1,7 +1,7 @@
 package OopSem5.personal.controllers;
 
-import personal.model.Repository;
-import personal.model.User;
+import OopSem5.personal.model.Repository;
+import OopSem5.personal.model.User;
 
 import java.util.List;
 
