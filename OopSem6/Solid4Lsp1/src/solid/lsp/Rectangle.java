@@ -1,6 +1,6 @@
 package solid.lsp;
 
-public class Rectangle {
+public class Rectangle extends Shape  {
     private int sideA;
     private int sideB;
 

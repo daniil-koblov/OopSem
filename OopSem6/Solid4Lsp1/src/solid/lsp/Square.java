@@ -1,23 +1,24 @@
 package solid.lsp;
 
-public class Square extends Rectangle {
+public class Square extends Shape {
+
+    private int side;
 
     public Square(int side) {
-        super(side, side);
+        this.side = side;
     }
 
-    @Override
-    public void setSideA(int sideA) {
-        super.setSideA(sideA);
+    public int getSide() {
+        return side;
     }
 
-    @Override
-    public void setSideB(int sideB) {
-        super.setSideA(sideB);
+    public void setSide(int side) {
+        this.side = side;
     }
 
     @Override
     public int getArea() {
-        return (int) Math.pow(getSideA(), 2);
+        return side * side;
     }
+    
 }
