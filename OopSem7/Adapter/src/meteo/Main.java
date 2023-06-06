@@ -1,4 +1,4 @@
-package meteo;
+ package meteo;
 
 public class Main {
 
@@ -10,6 +10,8 @@ public class Main {
 
         MeteoSensor ms200_1 = new MS200(1);
         meteoDb.save(ms200_1);
+        AdapterSensor adapterSensor = new AdapterSensor(new ST500Info().getData());
+        meteoDb.save(adapterSensor);
 
         // Здесь надо вызвать метод getData у класса ST500Info. Полученные данные отправить в метод save объекта meteoDb
     }
